@@ -4,9 +4,14 @@
 # TODO: Do the numbers really need to be random? Or is a sequential array fine?
 # Maybe take inputs, instead of hard-coded array size
 
-
-def bin_search_counter
-  list = 40000000.times.map{Random.rand(40000000)}.uniq.sort
+puts "This is a quick and dirty program to show the efficiency of binary search."
+puts "How big of a list do you want to search through?"
+list_size = gets.chomp
+if list_size.to_i > 1e6
+  puts "OK, but this might take a while"
+end
+define_method :bin_search_counter do
+  list = list_size.to_i.times.map{Random.rand(list_size.to_i)}.uniq.sort
   number = list[Random.rand(list.length)]
   low = 0
   high = list.length - 1
