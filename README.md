@@ -2,7 +2,7 @@
 
 This repo contains two scripts, one in Python and one in Ruby, that aim to illustrate the efficiency of binary search.
 
-Each script does the same thing; they search for a number in an ordered list. The programs take user input for length of the list, which is populated with sequential numbers. A target number is chosen at random, and then the program counts the number of times it divides the list in its searches. Final output tell you
+Each script does the same thing: they search for a number in an ordered list. The programs take user input for length of the list, which is populated with sequential numbers. A target number is chosen at random, and then the program counts the number of times it divides the list in its searches. Final output tells you:
 * the length of the list
 * the target number
 * the number of times the list was divided in half in the course of searching (i.e., the number of steps taken to arrive at the answer)
