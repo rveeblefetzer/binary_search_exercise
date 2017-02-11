@@ -42,7 +42,7 @@ define_method :bin_search_counter do
   puts "It was one entry in a list of #{list.length} random, unique numbers."
   puts 
   puts "Binary search found the item in #{counter} tries."
-  puts "The big-O notation for this search was O(log #{list.length}), or O(" + Math.log(list.length, 2).to_s + ")"
+  puts "The Big O notation for this search was O(log #{list.length}), or O(" + Math.log(list.length, 2).to_s + ")"
   puts "*"  * 20
 end
 
